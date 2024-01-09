@@ -33,9 +33,9 @@ class App(tb.Window):
             bootstyle=(PRIMARY)
         )
 
-        self.label_Username.pack(anchor=W)
+        self.label_Username.pack(anchor=W, padx=15, pady=15)
         self.entry.pack(anchor=W, padx=15, fill=X)
-        self.Password.pack(anchor=W)
+        self.Password.pack(anchor=W, padx=15, pady=15)
         self.entry_2.pack(anchor=W, padx=15, fill=X)
         self.Submit.pack(anchor=NE, padx=15, pady=20)
 
